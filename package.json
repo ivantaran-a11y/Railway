@@ -1,0 +1,16 @@
+{
+  "name": "discord-gateway-bot",
+  "version": "1.0.0",
+  "description": "Minimal Discord Gateway client forwarding events to Corezoid",
+  "type": "module",
+  "scripts": {
+    "start": "node gateway.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}
